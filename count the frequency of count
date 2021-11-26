@@ -1,0 +1,9 @@
+str= input(" enter the string")
+c=0
+t=str.split(" ")
+le=len(t)
+for i in range(0,le):
+    if t[i]=="the":
+        c=c+1
+print(c)
+
